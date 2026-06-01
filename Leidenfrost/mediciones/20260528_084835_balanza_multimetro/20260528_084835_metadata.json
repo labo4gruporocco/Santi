@@ -1,0 +1,15 @@
+{
+  "nombre": "balanza_multimetro",
+  "stamp": "20260528_084835",
+  "carpeta": "C:\\Users\\publico\\Documents\\Labo4-los_que_quemaron_el_lockin\\Leidenfrost\\Tercera clase\\mediciones\\20260528_084835_balanza_multimetro",
+  "adelanto_pc_s": 930,
+  "duracion_config_s": 10.0,
+  "duracion_real_s": 10.0648048999999,
+  "puerto_balanza": "COM9",
+  "dt_balanza_s": 0.5,
+  "visa_multimetro": "GPIB0::22::INSTR",
+  "volt_range": 0.1,
+  "nplc": 10,
+  "freq_red_hz": 50,
+  "dt_multimetro_s": 0.25
+}

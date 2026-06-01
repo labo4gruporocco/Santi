@@ -1,0 +1,20 @@
+{
+  "nombre_medicion": "balanza_multimetro",
+  "stamp_creacion_corregido": "20260528_123519",
+  "carpeta_medicion": "C:\\Users\\publico\\Documents\\Labo4-los_que_quemaron_el_lockin\\Leidenfrost\\Tercera clase\\mediciones\\20260528_123519_balanza_multimetro",
+  "hora_creacion_pc_sin_corregir": "2026-05-28T12:53:53.870",
+  "hora_creacion_corregida": "2026-05-28T12:38:23.870",
+  "adelanto_reloj_pc_s": 930,
+  "correccion_aplicada_s": -930,
+  "duracion_configurada_s": 180.0,
+  "duracion_real_s": 180.32083789999888,
+  "puerto_balanza": "COM9",
+  "baudrate_balanza": 9600,
+  "dt_balanza_s": 0.5,
+  "hacer_tara": true,
+  "visa_multimetro": "GPIB0::22::INSTR",
+  "volt_range": 0.1,
+  "nplc": 10,
+  "fs_multimetro_hz": 100,
+  "nota": "tiempo_s usa time.perf_counter y no depende del reloj de Windows; las fechas y nombres usan hora corregida."
+}
