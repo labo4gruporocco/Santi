@@ -1,0 +1,35 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usepackage[american]{circuitikz}
+
+\begin{document}
+\begin{circuitikz}[font=\sffamily\bfseries\large, color=blue!70!black, thick, text=black]
+
+    % Define main coordinate junctions
+    \coordinate (LeftNode) at (0, 0);
+    \coordinate (RightNode) at (8.5, 0);
+
+    % Input wire
+    \draw (-1.5, 0) -- (LeftNode);
+
+    % Top branch (R, C, L)
+    \draw (LeftNode) -- (0, 1.5) 
+          to[R, l=R] (3, 1.5) 
+          to[C, l=C] (5.5, 1.5) 
+          to[L, l=L] (8.5, 1.5) 
+          -- (RightNode);
+
+    % Bottom branch (C0)
+    \draw (LeftNode) -- (0, -1.5) 
+          to[C, l=C0] (8.5, -1.5) 
+          -- (RightNode);
+
+    % Output wire
+    \draw (RightNode) -- (10, 0);
+
+    % Square nodes at the splits
+    \filldraw[blue!70!black] (-0.1, -0.1) rectangle (0.1, 0.1);
+    \filldraw[blue!70!black] (8.4, -0.1) rectangle (8.6, 0.1);
+
+\end{circuitikz}
+\end{document}
